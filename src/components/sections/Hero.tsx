@@ -6,10 +6,10 @@ import { profile, socialLinks } from '@/data/portfolio';
 import { useTheme } from '@/providers/ThemeProvider';
 
 // ── Image paths ───────────────────────────────────────────────────────────────
-const IMG_DARK       = '/src/images/mypicture.jpg';
-const IMG_LIGHT      = '/src/images/mypicture02.png';
-const IMG_SIDE_LEFT  = '/src/images/sideprofile01.png';
-const IMG_SIDE_RIGHT = '/src/images/SIDEPROFILE02.png';
+const IMG_DARK       = '/images/mypicture.jpg';
+const IMG_LIGHT      = '/images/mypicture02.png';
+const IMG_SIDE_LEFT  = '/images/sideprofile01.png';
+const IMG_SIDE_RIGHT = '/images/SIDEPROFILE02.png';
 
 // ── Typewriter Hook ───────────────────────────────────────────────────────────
 function useTypewriter(words: string[], speed = 80, pause = 1800) {
